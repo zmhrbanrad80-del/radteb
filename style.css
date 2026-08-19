@@ -1,0 +1,13 @@
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;width:100%;min-height:100%;background:#fff}
+body{display:flex;justify-content:center;align-items:flex-start}
+.page{position:relative;width:min(100vw,1080px);line-height:0}
+.design{display:block;width:100%;height:auto;max-width:1080px}
+.hotspot{position:absolute;display:block;z-index:20;cursor:pointer;-webkit-tap-highlight-color:transparent}
+/* Coordinates are based on the supplied native 1080x1920 PSD render. */
+.email{left:26.0%;top:41.5%;width:49.5%;height:6.0%}
+.instagram{left:26.0%;top:47.5%;width:49.5%;height:6.0%}
+.website{left:26.0%;top:53.5%;width:49.5%;height:6.0%}
+.telephone{left:26.0%;top:59.5%;width:49.5%;height:6.0%}
+.whatsapp{left:26.0%;top:65.5%;width:49.5%;height:6.0%}
+.management{left:26.0%;top:76.0%;width:49.5%;height:6.0%}
