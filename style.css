@@ -1,0 +1,14 @@
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;width:100%;min-height:100%;background:#fff}
+body{display:flex;justify-content:center;align-items:flex-start}
+.page{position:relative;width:min(100vw,1080px);height:auto;line-height:0}
+.design{display:block;width:100%;height:auto;max-width:1080px}
+.hotspot{position:absolute;z-index:10;display:block;cursor:pointer;-webkit-tap-highlight-color:transparent}
+
+/* 1080x1920 native design: x/y are percentage coordinates */
+.email{left:20.7%;top:41.45%;width:59.0%;height:5.55%}
+.instagram{left:20.7%;top:47.55%;width:59.0%;height:5.55%}
+.website{left:20.7%;top:53.75%;width:59.0%;height:5.55%}
+.phone{left:20.7%;top:59.85%;width:59.0%;height:5.55%}
+.whatsapp{left:20.7%;top:66.0%;width:59.0%;height:5.55%}
+.management{left:20.7%;top:75.25%;width:59.0%;height:5.65%}
